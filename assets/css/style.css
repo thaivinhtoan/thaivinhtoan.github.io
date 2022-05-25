@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+}
+#main{
+    margin: 10px auto 0 auto;
+    /* padding: 32px 0; */
+    display: flex;
+}
+#cv{
+    display: flex;
+    min-height: 600px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 10px 10px 5px lightblue;
+}
+#cv-left{
+    flex:4;
+    background-color: #808080;
+    margin-right: 10px;
+}
+#intro{
+    min-height: 100px;
+    background-color: #a65959;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#name{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#specialized{
+    font-size: 25px;
+    color: white;
+}
+#contact hr{
+    width: 80%;
+}
+#contact ul{
+    padding-inline-start: 20px;
+}
+#technical{
+    padding-top: 10px;
+}
+
+#technical hr{
+    width: 80%;
+}
+#technical .tech{
+    padding-left: 20px;
+}
+#technical .tech-1{
+    color: white;
+}
+#technical .tech-2{
+    padding-left: 20px;
+}
+#certifications{
+    padding-top:10px;
+}
+
+#certifications hr {
+    width: 80%;
+}
+#certifications .cer{
+    padding-left: 20px;
+}
+#certifications .cer-1{
+    color:white;
+}
+#certifications .cer-2{
+    padding-left: 20px;
+}
+#cv-right{
+    flex:6;
+    background-image: linear-gradient(red, yellow);
+}
+.background-text-right-h1{
+    background-color: #808080;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.background-text-right-h1:hover{
+    background-color: #ff99dd;
+}
+#education .edu{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.describe ul{
+    padding-inline-start: 0px
+}
+#education .school{
+    font-size:25px;
+    font-weight:bold;
+}
+#education .major{
+    font-size: 18px;
+    color: white;
+}
+#education .year{
+    font-weight: bold;
+}
+#experience .pj-name{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#experience hr{
+    padding-left: 20px;
+    width: 60%;
+    color:red;
+}
+#experience ul{
+    padding-top: 3px;
+}
+.project ul{
+    list-style-type: circle;
+}
